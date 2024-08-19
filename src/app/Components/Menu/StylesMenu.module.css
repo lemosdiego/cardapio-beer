@@ -1,37 +1,46 @@
-/* src/app/Components/Menu/Menu.module.css */
+/* src/app/Components/Menu/StylesMenu.module.css */
+
 .menu {
+  background-color: #1c1c1c; /* Preto Carbono */
+  height: 140px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100px;
+  justify-content: center;
 }
 
 .menuList {
+  width: 80%;
+  height: 80%;
+  border-bottom: solid 2px #7b5a50; /* Bronze Viking */
+  border-top: solid 2px #7b5a50; /* Bronze Viking */
   display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   gap: 40px;
 }
 
 .menuList li {
-  margin: 0 15px;
+  margin: 0;
 }
 
 .menuList a {
+  color: #d6c9b4; /* Bege Areia */
   text-decoration: none;
-  color: #7b5a50;
-  font-size: 20px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  font-size: 22px;
+  padding: 10px;
+  border-bottom: 2px solid transparent; /* Sublinha transparente por padrão */
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
 .menuList a:hover {
-  background-color: #ddd;
+  color: #ffbf00; /* Ambar Dourado */
+  border-bottom: 2px solid #ffbf00; /* Ambar Dourado */
 }
 
-.active {
-  background-color: #0070f3;
-  color: #fff;
+.menuList a.active {
+  color: #d4af37; /* Ouro Viking */
+  border-bottom: 2px solid #d4af37; /* Ouro Viking */
 }
