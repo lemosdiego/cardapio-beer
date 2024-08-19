@@ -1,0 +1,7 @@
+.card {
+  height: 200px;
+  border: solid 2px #7b5a50;
+}
+.card:hover {
+  border: solid 2px #ffbf00;
+}
