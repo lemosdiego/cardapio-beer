@@ -6,8 +6,75 @@
   }
 }
 @media (min-width: 482px) and (max-width: 768px) {
+  .menuList {
+    display: none;
+  }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
+  .menu {
+    background-color: #1c1c1c; /* Preto Carbono */
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuList {
+    width: 80%;
+    height: 80%;
+    border-bottom: solid 2px #7b5a50; /* Bronze Viking */
+    border-top: solid 2px #7b5a50; /* Bronze Viking */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .menuList li {
+    margin: 0;
+  }
+
+  .menuList a {
+    color: #d6c9b4;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+  }
+
+  .menuList a:hover {
+    color: #ffbf00;
+    border-bottom: 2px solid #ffbf00;
+  }
+
+  .menuList a.active {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+  }
+  .container_input input {
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: solid 2px #7b5a50;
+    outline: none;
+    background: none;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  .icon {
+    width: 45px;
+    height: 45px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+  }
 }
 @media (min-width: 1201px) {
   /* src/app/Components/Menu/StylesMenu.module.css */
