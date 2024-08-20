@@ -26,6 +26,15 @@ const Menu = ({ setCurrentSection, currentSection }) => {
         <li>
           <a
             href="#pizzas"
+            onClick={() => setCurrentSection("burguer")}
+            className={currentSection === "pizzas" ? Styles.active : ""}
+          >
+            Burguers
+          </a>
+        </li>
+        <li>
+          <a
+            href="#pizzas"
             onClick={() => setCurrentSection("pizzas")}
             className={currentSection === "pizzas" ? Styles.active : ""}
           >

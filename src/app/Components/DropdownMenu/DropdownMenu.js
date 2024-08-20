@@ -41,6 +41,15 @@ const DropdownMenu = ({ setCurrentSection, currentSection }) => {
                   onClick={() => setCurrentSection("pizzas")}
                   className={currentSection === "pizzas" ? Styles.active : ""}
                 >
+                  Burguers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#pizzas"
+                  onClick={() => setCurrentSection("pizzas")}
+                  className={currentSection === "pizzas" ? Styles.active : ""}
+                >
                   Pizzas
                 </a>
               </li>

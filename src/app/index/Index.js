@@ -6,6 +6,7 @@ import BeerMenu from "../Sections/BeerMenu/BeerMenu";
 import SnacksMenu from "../Sections/SnacksMenu/SnacksMenu";
 import StylesIndex from "./StylesIndex.module.css";
 import DropdownMenu from "../Components/DropdownMenu/DropdownMenu";
+import BurguerMenu from "../Sections/BurguersMenu/BurguersMenu";
 
 const Index = () => {
   const [currentSection, setCurrentSection] = useState("beer");
@@ -16,6 +17,8 @@ const Index = () => {
         return <BeerMenu />;
       case "snacks":
         return <SnacksMenu />;
+      case "burguer": // Removido o ponto-e-vírgula e adicionado o case correto
+        return <BurguerMenu />;
       default:
         return <BeerMenu />;
     }

@@ -6,9 +6,7 @@ const BeerMenu = () => {
   return (
     <section className={Styles.container}>
       <div className={Styles.title}>
-        <h2>
-          Navegando pelos Sabores: Seu Guia para Nossas Cervejas Exclusivas
-        </h2>
+        <h2>Confira as Cervejas dos Mestres</h2>
       </div>
       <div className={Styles.containerCards}>
         {productBeer.map((beer) => (
