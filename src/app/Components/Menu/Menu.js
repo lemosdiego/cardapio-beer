@@ -1,5 +1,4 @@
-// src/app/Components/Menu/Menu.js
-import { useState } from "react";
+import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import Styles from "./StylesMenu.module.css";
 
 const Menu = ({ setCurrentSection, currentSection }) => {

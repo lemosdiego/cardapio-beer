@@ -5,6 +5,7 @@ import Menu from "../Components/Menu/Menu";
 import BeerMenu from "../Sections/BeerMenu/BeerMenu";
 import SnacksMenu from "../Sections/SnacksMenu/SnacksMenu";
 import StylesIndex from "./StylesIndex.module.css";
+import DropdownMenu from "../Components/DropdownMenu/DropdownMenu";
 
 const Index = () => {
   const [currentSection, setCurrentSection] = useState("beer");
@@ -23,6 +24,10 @@ const Index = () => {
   return (
     <>
       <Menu
+        setCurrentSection={setCurrentSection}
+        currentSection={currentSection}
+      />
+      <DropdownMenu
         setCurrentSection={setCurrentSection}
         currentSection={currentSection}
       />
