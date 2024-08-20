@@ -42,6 +42,13 @@ const Menu = ({ setCurrentSection, currentSection }) => {
             Combos
           </a>
         </li>
+        <div className={Styles.container_input}>
+          <input placeholder="Busque por item" />
+        </div>
+        <div className={Styles.icons}>
+          <div className={Styles.icon}></div>
+          <div className={Styles.icon}></div>
+        </div>
       </ul>
     </nav>
   );
