@@ -25,9 +25,9 @@ const Menu = ({ setCurrentSection, currentSection }) => {
         </li>
         <li>
           <a
-            href="#pizzas"
+            href="#burguers"
             onClick={() => setCurrentSection("burguer")}
-            className={currentSection === "pizzas" ? Styles.active : ""}
+            className={currentSection === "burguer" ? Styles.active : ""}
           >
             Burguers
           </a>
@@ -50,13 +50,12 @@ const Menu = ({ setCurrentSection, currentSection }) => {
             Combos
           </a>
         </li>
-        <div className={Styles.container_input}>
-          <input placeholder="Busque por item" />
-        </div>
-        <div className={Styles.icons}>
-          <div className={Styles.icon}></div>
-          <div className={Styles.icon}></div>
-        </div>
+        <li className={Styles.icon}>
+          <img src="/pedido.svg" alt="Icone de pedido" />
+        </li>
+        <li className={Styles.icon}>
+          <img src="/profile.svg" alt="Icone de perfil" />
+        </li>
       </ul>
     </nav>
   );

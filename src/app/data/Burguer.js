@@ -1,8 +1,8 @@
 export const productBurgers = [
   {
     id: 1,
-    nome: "Cheeseburger",
-    imagem: "",
+    nome: "Tradicional Burguer",
+    imagem: "/burguers/tradicional.png",
     detalhes: [
       { volume: "Simples", preco: 14.99 },
       { volume: "Duplo", preco: 19.99 },
@@ -11,7 +11,7 @@ export const productBurgers = [
   {
     id: 2,
     nome: "Bacon Burger",
-    imagem: "/",
+    imagem: "/burguers/bacon.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },
@@ -19,8 +19,8 @@ export const productBurgers = [
   },
   {
     id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
+    nome: "Chease Bacon",
+    imagem: "/burguers/cheasebacon.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },
@@ -28,8 +28,8 @@ export const productBurgers = [
   },
   {
     id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
+    nome: "Salada Burguer",
+    imagem: "/burguers/salada.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },
@@ -37,8 +37,8 @@ export const productBurgers = [
   },
   {
     id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
+    nome: "Chicken Burguer",
+    imagem: "/burguers/chicken.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },
@@ -46,8 +46,8 @@ export const productBurgers = [
   },
   {
     id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
+    nome: "Viking Burguer",
+    imagem: "/burguers/vikings.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },
@@ -55,17 +55,8 @@ export const productBurgers = [
   },
   {
     id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
-    detalhes: [
-      { volume: "Simples", preco: 16.99 },
-      { volume: "Duplo", preco: 22.99 },
-    ],
-  },
-  {
-    id: 2,
-    nome: "Bacon Burger",
-    imagem: "/",
+    nome: "Chedar Burguer",
+    imagem: "/burguers/chedar.png",
     detalhes: [
       { volume: "Simples", preco: 16.99 },
       { volume: "Duplo", preco: 22.99 },

@@ -37,9 +37,9 @@ const DropdownMenu = ({ setCurrentSection, currentSection }) => {
               </li>
               <li>
                 <a
-                  href="#pizzas"
-                  onClick={() => setCurrentSection("pizzas")}
-                  className={currentSection === "pizzas" ? Styles.active : ""}
+                  href="#burguers"
+                  onClick={() => setCurrentSection("burguer")}
+                  className={currentSection === "burguer" ? Styles.active : ""}
                 >
                   Burguers
                 </a>
@@ -65,11 +65,12 @@ const DropdownMenu = ({ setCurrentSection, currentSection }) => {
             </ul>
           )}
         </li>
-        <div className={Styles.container_input}>
-          <input placeholder="Busque por item" />
-        </div>
-        <div className={Styles.icons}></div>
-        <div className={Styles.icons}></div>
+        <li className={Styles.icon}>
+          <img src="/pedido.svg" alt="Icone de pedido" />
+        </li>
+        <li className={Styles.icon}>
+          <img src="/profile.svg" alt="Icone de perfil" />
+        </li>
       </ul>
     </nav>
   );

@@ -30,7 +30,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 4px;
+    gap: 10px;
   }
 
   .menuList li {
@@ -55,25 +55,13 @@
     color: #d4af37;
     border-bottom: 2px solid #d4af37;
   }
-  .container_input input {
-    width: 120px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 0.8rem;
-    border-radius: 8px;
-    border: solid 2px #7b5a50;
-    outline: none;
-    background: none;
-  }
-  .icons {
-    display: flex;
-    gap: 10px;
-  }
   .icon {
-    width: 45px;
-    height: 45px;
     border: solid 1px #fff;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+  }
+  .icon img {
   }
 }
 @media (min-width: 1201px) {
@@ -123,24 +111,17 @@
     color: #d4af37;
     border-bottom: 2px solid #d4af37;
   }
-  .container_input input {
-    width: 300px;
-    height: 40px;
-    padding-left: 10px;
-    font-size: 1.1rem;
-    border-radius: 8px;
-    border: solid 2px #7b5a50;
-    outline: none;
-    background: none;
-  }
-  .icons {
-    display: flex;
-    gap: 10px;
-  }
   .icon {
     width: 50px;
     height: 50px;
-    border: solid 1px #fff;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
   }
 }
